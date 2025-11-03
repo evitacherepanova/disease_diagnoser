@@ -1,15 +1,24 @@
 # Виртуальное окружение
 venv/
-.env/
+env/
+.venv/
 
 # Кэш Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
 
 # Системные файлы
 .DS_Store
 Thumbs.db
 
-# IDE
-.vscode/
-.idea/
+# Данные (если появятся)
+data/raw/
+*.csv
+*.json
