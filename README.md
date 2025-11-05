@@ -32,13 +32,15 @@ git clone https://github.com/EvitaCherepanova/disease_diagnoser.git
 cd disease_diagnoser
 
 # 3. Создайте виртуальное окружение (рекомендуется)
-python -m venv venv
+python -m venv 
 
 # 4. Активируйте виртуальное окружение
 # Для Windows:
 venv\Scripts\activate
-# Для Linux/MacOS:
+# Для MacOS:
 source venv/bin/activate
 
 # 5. Запустите программу
 python main.py
+# короче ничего не получилось)))
+# увы придется просто скопировать код в компилятор(((
