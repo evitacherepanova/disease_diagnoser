@@ -42,5 +42,10 @@ source venv/bin/activate
 
 # 5. Запустите программу
 python main.py
-# короче ничего не получилось)))
-# увы придется просто скопировать код в компилятор(((
+
+# 6. Если уже был запуск, сначала нужно удалить вр окружение
+rmdir /s venv
+rm -rf venv    # macOS/Linux
+python -m venv venv # сделать новое
+venv\Scripts\activate      # Windows
+source venv/bin/activate   # macOS/Linux
